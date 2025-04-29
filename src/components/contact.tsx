@@ -2,7 +2,7 @@ import { Linkedin } from "lucide-react";
 
 export function Contact() {
   return (
-    <section className="bg-white">
+    <section id="contact" className="bg-white">
       <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
           <p className="font-medium text-green-500">Contact us</p>
@@ -48,7 +48,7 @@ export function Contact() {
               Upwork
             </h2>
             <p className="mt-2 text-gray-500">
-              <a href="https://www.upwork.com/freelancers/~01993d1a307f810c5f" className="text-green-700 hover:underline">Afif Ihsan</a>
+              <a href="https://www.upwork.com/freelancers/~01993d1a307f810c5f" target="_blank" className="text-green-700 hover:underline">Afif Ihsan</a>
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export function Contact() {
               LinkedIn
             </h2>
             <p className="mt-2 text-gray-500">
-              <a href="https://www.linkedin.com/in/afifihsanmaulana/" className="text-green-700 hover:underline">Afif Ihsan Maulana</a>
+              <a href="https://www.linkedin.com/in/afifihsanmaulana/" target="_blank" className="text-green-700 hover:underline">Afif Ihsan Maulana</a>
             </p>
           </div>
         </div>
