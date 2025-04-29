@@ -22,10 +22,10 @@ export function Navbar() {
     setIsMenuOpen(!isMenuOpen)
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
   };
-  // const scrollToContact = () => {
-  //   setIsMenuOpen(!isMenuOpen)
-  //   document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-  // };
+  const scrollToContact = () => {
+    setIsMenuOpen(!isMenuOpen)
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <header>
@@ -92,7 +92,7 @@ export function Navbar() {
             <li>
               <a
                 className="cursor-pointer hover:text-green-700"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                onClick={scrollToContact}
               >
                 Contact
               </a>
