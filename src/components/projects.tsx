@@ -102,7 +102,7 @@ export function Projects() {
         "Portfolio website developed using Next.js for a fast, SEO-friendly frontend. Deployed on Vercel for seamless CI/CD, with custom domain management, analytics integration, and performance optimization.",
       image: "/projects/afif-personal-portfolio-website.png",
       tags: ["Next.js", "TypeScript", "React", "Vercel"],
-      liveUrl: "https://afifihsnm.vercel.app",
+      liveUrl: "https://afifihsnm.is-a.dev",
       // githubUrl: "https://github.com/example/project",
     },
   ];
