@@ -17,7 +17,7 @@ export function Hero() {
           <span className="text-green-500">.</span>
         </h1>
         <h2 className="text-sm font-medium mb-8">
-          Web Designer | Full Stack Web Developer | DevOps Engineer
+          Full Stack Web Developer | DevOps Engineer
         </h2>
 
         <div className="relative w-56 h-56 mx-auto mb-16 rounded-full overflow-hidden">
