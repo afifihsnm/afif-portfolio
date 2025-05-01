@@ -24,7 +24,7 @@ function Project({
 }: ProjectProps) {
   return (
     <div>
-      <Card className="overflow-hidden border-none shadow-sm hover:shadow-md transition-all">
+      <Card className="overflow-hidden border-none shadow-sm hover:shadow-md transition-all h-full">
         <div className="aspect-video relative overflow-hidden">
           <Image
             src={image || "/placeholder.svg"}
@@ -103,6 +103,15 @@ export function Projects() {
       image: "/projects/afif-personal-portfolio-website.png",
       tags: ["Next.js", "TypeScript", "React", "Vercel"],
       liveUrl: "https://afifihsnm.is-a.dev",
+      // githubUrl: "https://github.com/example/project",
+    },
+    {
+      title: "Harmony Designs Landing Page",
+      description:
+        "3D Interior Design Company Landing Page built with Three.js and React to showcase interactive 3D room models. Used GSAP for smooth scroll-triggered animations and transitions. Implemented responsive design, optimized GLTF model loading, and deployed on Vercel.",
+      image: "/projects/3d-interior-design-company-landing-page.png",
+      tags: ["Three.js", "GSAP", "TypeScript", "React", "Vercel"],
+      liveUrl: "https://harmonydesigns.vercel.app",
       // githubUrl: "https://github.com/example/project",
     },
   ];
