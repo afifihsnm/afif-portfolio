@@ -5,7 +5,7 @@ export function Contact() {
     <section id="contact" className="bg-white">
       <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
-          <p className="font-medium text-green-500">Contact us</p>
+          <p className="font-medium text-green-500">Contact me</p>
 
           <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl">
             Get in touch

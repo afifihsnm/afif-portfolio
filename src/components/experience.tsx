@@ -24,7 +24,7 @@ const items = [
     date: "Jul 2024 - Sep 2024",
     title: "Software Engineer Intern at KodingWorks",
     description:
-      "Built backend APIs for an attendance application using Laravel | Developed a Learning Management System (LMS) web application, integrating Xendit as the payment gateway. (Tech Stack: Next.js, PostgreSQL, Prisma, ShadCN)",
+      "Built backend APIs for an HR employee attendance application using Laravel | Developed a Learning Management System (LMS) web application, integrating Xendit as the payment gateway. (Tech Stack: Next.js, PostgreSQL, Prisma, Shadcn UI)",
   },
   {
     id: 3,
