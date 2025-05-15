@@ -1,4 +1,4 @@
-import { Linkedin } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export function Contact() {
   return (
@@ -12,7 +12,7 @@ export function Contact() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="flex flex-col items-center justify-center text-center">
             <span className="p-3 text-green-500 rounded-full bg-green-100/80">
               <svg
@@ -49,6 +49,19 @@ export function Contact() {
             </h2>
             <p className="mt-2 text-gray-500">
               <a href="https://www.upwork.com/freelancers/~01993d1a307f810c5f" target="_blank" className="text-green-700 hover:underline">Afif Ihsan</a>
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center justify-center text-center">
+            <span className="p-3 text-green-500 rounded-full bg-green-100/80">
+              <Github className="h-5 w-5" />
+            </span>
+
+            <h2 className="mt-4 text-lg font-medium text-gray-800">
+              Github
+            </h2>
+            <p className="mt-2 text-gray-500">
+              <a href="https://github.com/afifihsnm" target="_blank" className="text-green-700 hover:underline">SuchaJif</a>
             </p>
           </div>
 
