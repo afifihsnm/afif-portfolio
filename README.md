@@ -14,7 +14,10 @@ Designed to showcase expertise in **Full-Stack Development** and **DevOps** with
 
 - [Next.js](https://nextjs.org/) – React framework for production
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
-= [Shadcn UI](https://ui.shadcn.com/) - A set of beautifully-designed, accessible components and a code distribution platform.
+- [Shadcn UI](https://ui.shadcn.com/) - A set of beautifully-designed, accessible components and a code distribution platform.
+
+## 📸 Screenshots
+![Image](https://github.com/user-attachments/assets/0dcb5f1c-2e19-424e-af4d-020fe6ea42e0)
 
 ## 🚀 Getting Started
 
