@@ -35,7 +35,7 @@ export function Contact() {
               Email
             </h2>
             <p className="mt-2 text-gray-500">
-              afifihsanke2@gmail.com
+              <a href="mailto:afifihsanke2@gmail.com" target="_blank" className="text-green-700 hover:underline">afifihsanke2@gmail.com</a>
             </p>
           </div>
 
